@@ -98,7 +98,7 @@ position:absolute; left: 45px;
 /*body to put a background image*/
 body
  {
-    background-image: url("background.jpg");
+    background-image: url("background10.jpg");
  }
  /*second rectangle styled*/
  .rectangle2
@@ -136,7 +136,8 @@ body
     width: 750px;
     height: 150px;
     background-color: rgba(138, 118, 118, 0.637);
-    border: rgba(23, 18, 66, 0.952) solid;
+    border: solid transparent;
+    border-image: url("borders.png") 70 round;
     border-width: 5px;
     /* sets position using top,left as ref*/
     position: absolute; TOP: 530px; LEFT: 120px; 
