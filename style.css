@@ -45,6 +45,37 @@ h2
     text-shadow: 1px 2px blue;
 
 }
+/*styles hns class h2*/
+.hns
+{
+   position: absolute;left: 750px; top: 700px;
+}
+/*styles hns a element's href*/
+.hns a
+{
+   text-decoration-line: none;
+   color: rgb(255, 255, 255);
+   text-shadow: white;
+}
+/*stles inactive class h2*/
+.inactive
+{
+   position: absolute;left: 750px; top: 700px;
+   color: grey;
+}
+/*styles previous class h2*/
+.previous  
+{
+   position: absolute;left: 20px; top: 700px;
+
+}
+/*styles previous a element's href*/
+.previous a
+{
+   text-decoration-line: none;
+   color: rgb(255, 255, 255);
+   text-shadow: white;
+}
 p1
 {
     color: white;
