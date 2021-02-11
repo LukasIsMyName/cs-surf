@@ -26,7 +26,6 @@ li a:hover
   background-color: rgba(77, 146, 108, 0.568);
   color: rgb(0, 0, 0);
 }
-/*header styling*/
 h1 
 {
     color: #703135;
@@ -112,11 +111,18 @@ body
     position: absolute; TOP: 530px; LEFT: 120px; 
  }
 
+ /* filler rectangle style*/
  .fillerRect
  {
     width: 1500px;
     height: 3px;
     background-color: rgb(49, 49, 49);
     position: absolute; top: 115px;
+ }
+ .clip
+ {
+    width: 720px;
+    height: 360px;
+    position: absolute; left: 130px;
  }
  
