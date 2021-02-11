@@ -3,11 +3,11 @@
 ul a
  {
     list-style-type: none;
-    margin: 10px;
-    padding: 5;
+    margin: 20px;
+    padding: 5px;
     width: 140px;
     border: solid transparent; /* sets a solid border, transparent */
-    border-image: url("borders.png") 30 round; /* sets an image on a transp. border*/
+    /*border-image: url("borders.png") 30 round; /* sets an image on a transp. border*/
 }
 /* list itself styling*/
 li a 
@@ -19,7 +19,7 @@ li a
     background-color: rgba(104, 85, 85, 0.164);
     color: white;
     text-decoration-line: none;
-    position:fixed; left: 5px; /*fixed position with dragged 8 px from left*/
+    position:absolute; left: 5px; /*fixed position with dragged 8 px from left*/
 }
 li a:hover 
 { /*changes the color when hovered*/
@@ -28,11 +28,11 @@ li a:hover
 }
 h1 
 {
-    color: #703135;
+    color: #a32f37;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 34px;
     text-align: center;
-    text-shadow: 1px 2px rgb(66, 30, 30);
+    text-shadow: 1px 2px rgb(59, 25, 25);
     margin-top: 5px;
 }
 h2
@@ -90,7 +90,7 @@ p1
 {
 width: 1400px;
 height: 60px;
-background-color: #2a2a3669;
+background-color: #689b772c;
 border: 10px solid transparent;
 border-image: url("borders.png") 60 round;
 position:absolute; left: 45px;
@@ -100,14 +100,25 @@ body
  {
     background-image: url("background10.jpg");
  }
+ .navRect
+{
+
+   width: 180px;
+   height: 100%;
+   position: absolute; top: 140px;
+   background-image: url("backgroundText.jpg");
+   border-style: double;
+   border-color: rgb(28, 43, 30);
+
+}
  /*second rectangle styled*/
  .rectangle2
  {
     width: 1120px;
     height: 100%;
     background-image: url("backgroundText2.jpg"); /* gives an image*/
-    border: solid transparent; /* transparent for image application*/
-    border-image: url("borders.png") 45 round;
+    border-style:solid double; /* transparent for image application*/
+    border-color: rgb(28, 43, 30);;
     /* sets position using top,left as ref*/
     position: absolute; TOP: 140px; LEFT: 200px; 
  }
@@ -118,7 +129,7 @@ body
     height: 100%;
     background-image: url("backgroundText.jpg");
     border: red solid; /* transparent for image application*/
-    border-radius: 50px;
+    border-style:double;
     /* sets position using top,left as ref*/
     position: absolute; TOP: 140px; LEFT: 270px; 
  }
@@ -156,5 +167,7 @@ body
     width: 720px;
     height: 360px;
     position: absolute; left: 130px;
+    border: double;
+    border-color: red;
  }
  
