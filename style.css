@@ -118,7 +118,6 @@ body
     height: 100%;
     background-image: url("backgroundText.jpg");
     border: red solid; /* transparent for image application*/
-    border-radius: 50px;
     /* sets position using top,left as ref*/
     position: absolute; TOP: 140px; LEFT: 270px; 
  }
