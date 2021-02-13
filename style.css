@@ -211,7 +211,7 @@ body
 {
    width: 320px;
    height: 240px;
-   position: absolute; left: 50px; top: 830px;
+   position: absolute; left: 50px; top: 760px;
    border-color: grey;
    border-style: ridge;
    border-width: 3px;
@@ -220,6 +220,27 @@ body
 {
    width: 320px;
    height: 240px;
-   position: absolute; left: 570px; top: 830px;
+   position: absolute; left: 570px; top: 760px;
+}
+.aboutRect
+{
+   width: 940px;
+   height: 90px;
+   position: absolute; left: 20px; top: 50px;
+   background-color: rgba(128, 128, 128, 0.589);
+}
+.aboutP 
+{
+   position: inherit; left: 190px; top: 5px;
+}
+.myprofile
+{
+   position: absolute; top: 150px; left: 190px;
+   height: 680px;
+   width: 540px;
+   border-color: yellow;
+   border-style: double;
+   border-width: 3px;
+
 }
  
