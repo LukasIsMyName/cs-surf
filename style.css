@@ -84,6 +84,7 @@ p1
     font:bold;
     text-shadow: 1px 3px black;
     text-align: center;
+    margin-left: 5px;
 }
 /*creates a rectangle at the top to put my title in*/
 .rectangle
@@ -170,4 +171,55 @@ body
     border: double;
     border-color: red;
  }
+ .communityRect
+{
+   height: 30px;
+   width: 940px;
+   background-color: rgba(255, 255, 255, 0.459);
+   position: absolute; top: 20px; left: 20px;
+}
+.communityP
+{
+   position: absolute; left: 350px;
+}
+.communityMort
+{
+   width: 320px;
+   height: 240px;
+   position: absolute; left: 50px; top: 140px;
+
+}
+.communityWoozy
+{
+   width: 320px;
+   height: 240px;
+   position: absolute; left: 570px; top: 140px;
+}
+.communityPhoon
+{
+   width: 320px;
+   height: 240px;
+   position: absolute; left: 50px; top: 450px;
+}
+.communityDoorStuck
+{
+   width: 320px;
+   height: 240px;
+   position: absolute; left: 570px; top: 450px;
+}
+.unforgettable
+{
+   width: 320px;
+   height: 240px;
+   position: absolute; left: 50px; top: 830px;
+   border-color: grey;
+   border-style: ridge;
+   border-width: 3px;
+}
+.communityZombies
+{
+   width: 320px;
+   height: 240px;
+   position: absolute; left: 570px; top: 830px;
+}
  
